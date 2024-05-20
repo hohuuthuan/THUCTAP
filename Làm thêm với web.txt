@@ -1,0 +1,7 @@
+Hướng phát triển giao diện Home:
+	Resposive với các kích thước màng hình khác nhau
+	Animation hover thanh tìm kiếm
+	Hỗ trợ click chuyển slide
+	Không copy text ở footer
+	
+	
