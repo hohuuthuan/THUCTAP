@@ -5,14 +5,16 @@
     display: flex;
     overflow: hidden;
     animation: all ease 0.2s;
-    transition: width ease-in-out 0.4s;
-    &:hover {
-        transition: ease-in 0.5s;
-        width: 300px;
-    }
+    // transition: width ease-in-out 0.4s;
+    width: 300px;
+    // &:hover {
+    //     transition: ease-in 0.5s;
+    //     width: 300px;
+    // }
 
     &:hover .input {
-        opacity: 1;
+        transition: ease-in-out 0.3s;
+        border: 2px solid #24b31a;
     }
 }
 
@@ -25,8 +27,8 @@
     height: 100%;
     border: none;
     outline: none;
-    opacity: 0;
-    border: 2px solid #24b31a;
+    opacity: 1;
+    border: 2px solid #e0e0e0;
     animation: all ease 1s;
 }
 
@@ -36,7 +38,6 @@ input::placeholder {
 
 input:focus {
     left: 0;
-
 }
 
 .btn-search {
@@ -52,7 +53,6 @@ input:focus {
     align-items: center;
     animation: all ease 1s;
     border: 2px solid #24b31a;
-
     &:hover {
         cursor: pointer;
         opacity: 0.8;
