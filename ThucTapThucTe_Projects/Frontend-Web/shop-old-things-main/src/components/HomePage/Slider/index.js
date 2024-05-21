@@ -16,12 +16,16 @@ function Slider() {
     useEffect(() => {
         const interval = setInterval(() => {
             setActiveIndex((prevIndex) => (prevIndex + 1) % slides.length);
-        }, 3000);
+        }, 5000);
 
         return () => {
             clearInterval(interval);
         };
     }, [slides.length]);
+
+    const handleDotClick = (index) => {
+        setActiveIndex(index);
+    };
 
     return (
         <div className={cx('wrap')}>
@@ -38,6 +42,7 @@ function Slider() {
                     <div
                         key={index}
                         className={cx('item', { active: index === activeIndex })}
+                        onClick={() => handleDotClick(index)}
                     ></div>
                 ))}
             </div>

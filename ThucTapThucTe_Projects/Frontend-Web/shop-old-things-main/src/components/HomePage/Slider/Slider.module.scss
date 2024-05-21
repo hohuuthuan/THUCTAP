@@ -27,8 +27,12 @@
         background-color: #ccc;
     }
     .item.active {
-        background-color: #333;
+        background-color:#24b31a;
     }  
+}
+
+.wrap .list .item {
+    cursor: pointer;
 }
 
 .wrap {
