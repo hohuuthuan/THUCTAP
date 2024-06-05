@@ -43,13 +43,13 @@ function Home() {
                         <Slider />
                     </div>
                     <div className={cx('list-cate')}>
-                    <Link to="/news?category=10004">
+                    <Link to="/news?category=3">
                             <div className={cx('cate-item', 'item-1')}>
                                 <img src={mobile} alt="" />
                                 <span>Phone</span>
                             </div>
                         </Link>
-                        <Link to="/news?category=10002">
+                        <Link to="/news?category=4">
                             <div className={cx('cate-item', 'item-2')}>
                                 <img src={laptop} alt="" />
                                 <span>Laptop</span>
@@ -61,13 +61,13 @@ function Home() {
                                 <span>ALL</span>
                             </div>
                         </Link>
-                        <Link to="/news?category=10005">
+                        <Link to="/news?category=5">
                             <div className={cx('cate-item', 'item-3')}>
                                 <img src={watch} alt="" />
                                 <span>Watch</span>
                             </div>
                         </Link>
-                        <Link to="/news?category=10006">
+                        <Link to="/news?category=6">
                             <div className={cx('cate-item', 'item-4')}>
                                 <img src={tablet} alt="" />
                                 <span>Tablet</span>
